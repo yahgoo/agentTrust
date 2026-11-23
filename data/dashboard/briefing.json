@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T10:36:29+00:00",
+  "source": "data/agenttrust.db / audit_events (live query, not hard-coded)",
+  "text": "Today, 3 agent actions were processed. 1 were approved, 1 were blocked for privacy violations, and 1 require your approval. No unauthorized financial transactions were completed.",
+  "counts": {
+    "processed": 3,
+    "approved": 1,
+    "blocked_privacy": 1,
+    "awaiting_approval": 1
+  },
+  "checks": {
+    "sent_simulated_without_allow_or_approval": [],
+    "completed_quotations_without_owner_approval": [],
+    "integrity_ok": true,
+    "note_non_privacy_blocks_today": 0
+  }
+}
